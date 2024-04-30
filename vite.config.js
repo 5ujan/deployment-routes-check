@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:"/deployment-routes-check/",
+  base:"https://github.com.5ujan.io/deployment-routes-check/",
   plugins: [react()],
 })
