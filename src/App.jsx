@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/deployment-routes-check">
         <Nav></Nav>
         <Routes>
           <Route path="/" Component={Home}></Route>
